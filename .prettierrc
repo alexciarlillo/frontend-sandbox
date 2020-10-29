@@ -1,6 +1,18 @@
 {
+  "printWidth": 100,
+  "singleQuote": true,
   "trailingComma": "es5",
-  "tabWidth": 2,
-  "semi": tue,
-  "singleQuote": true
+  "bracketSpacing": false,
+  "jsxBracketSameLine": false,
+  "semi": true,
+  "requirePragma": false,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx", "*.svg"],
+      "options": {
+        "parser": "babel"
+      }
+    },
+  ]
 }
